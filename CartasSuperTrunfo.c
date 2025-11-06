@@ -8,7 +8,7 @@ int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   
   //Carta 1 - Declaração de variáveis
-  char[49] estado;
+
 
 
 
@@ -16,8 +16,6 @@ int main() {
 
 
   // Área para entrada de dados | Carta 1 - Coleta dados de entrada
-
-  printf("Insira o nome do estado:");
 
   // Área para exibição dos dados da cidade
 
