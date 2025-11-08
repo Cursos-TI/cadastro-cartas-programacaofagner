@@ -12,12 +12,11 @@ int main() {
     float area_1, pib_1; // Área da cidade CARTA 1 | PIB cidade CARTA 1
 
   // Área para entrada de dados | Carta 1 - Coleta dados de entrada
-
     printf("Insira os dados da CARTA 01! \n"); // Envia informação para a tela do usuário
     
     // LETRA ESTADO 01
     printf("Digite a letra que representa o Estado: \n"); // Envia informação para a tela do usuário
-    scanf("%c", &estado_1); // Coleta dado digitado pelo usuário
+    scanf("%s", &estado_1); // Coleta dado digitado pelo usuário
 
     // CÓDIGO CARTA 
     printf("Digite o código da carta: \n"); // Envia informação para a tela do usuário
@@ -41,7 +40,7 @@ int main() {
 
     // N° DE PONTOS TURÍSTICOS
     printf("Digite o n° de pontos turísticos: \n"); // Envia informação para a tela do usuário
-    scanf("%f", &pontos_tur_1); // Coleta dado digitado pelo usuário
+    scanf("%d", &pontos_tur_1); // Coleta dado digitado pelo usuário
     printf("\n"); // Pula linha entre cartas
     
     // --------------------------------------------------------------------------------------------------------------------------
@@ -84,9 +83,29 @@ int main() {
 
     // N° DE PONTOS TURÍSTICOS
     printf("Digite o n° de pontos turísticos: \n"); // Envia informação para a tela do usuário
-    scanf("%f", &pontos_tur_2); // Coleta dado digitado pelo usuário
+    scanf("%d", &pontos_tur_2); // Coleta dado digitado pelo usuário
 
     // Área para exibição dos dados da cidade
+
+    printf("Carta 1: \n"); 
+    printf("Estado: %c \n", estado_1); // Informa a letra que representa o Estado
+    printf("Código: %s \n", codigo_carta1); // Informa o código da carta
+    printf("Nome da Cidade: %s \n", cidade_1); // Informa o nome da cidade
+    printf("População: %d habitantes \n", populacao_1); // Informa a população
+    printf("Área: %f km² \n", area_1); // // Informa a área em km²
+    printf("PIB: %f bilhões de reais \n", pib_1); // Informa o PIB
+    printf("Número de Pontos Turísticos: %d \n", pontos_tur_1); // Informa o número de pontos turísticos
+    printf("\n");
+
+    printf("Carta 2: \n"); 
+    printf("Estado: %c \n", estado_2); // Informa a letra que representa o Estado
+    printf("Código: %s \n", codigo_carta2); // Informa o código da carta
+    printf("Nome da Cidade: %s \n", cidade_2); // Informa o nome da cidade
+    printf("População: %d habitantes \n", populacao_2); // Informa a população
+    printf("Área: %f km² \n", area_2); // // Informa a área em km²
+    printf("PIB: %f bilhões de reais \n", pib_2); // Informa o PIB
+    printf("Número de Pontos Turísticos: %d \n", pontos_tur_2); // Informa o número de pontos turísticos
+    printf("\n");
 
 return 0;
 } 
