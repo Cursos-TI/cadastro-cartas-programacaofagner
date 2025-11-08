@@ -17,7 +17,7 @@ int main() {
     
     // LETRA ESTADO 01
     printf("Digite a letra que representa o Estado: \n"); // Envia informação para a tela do usuário
-    scanf("%s", &estado_1); // Coleta dado digitado pelo usuário
+    scanf("%c", &estado_1); // Coleta dado digitado pelo usuário
 
     // CÓDIGO CARTA 
     printf("Digite o código da carta: \n"); // Envia informação para a tela do usuário
